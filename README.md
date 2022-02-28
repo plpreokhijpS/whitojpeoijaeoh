@@ -9,7 +9,7 @@ if syn then
 elseif IsElectron then
     bestrequest = http_request
 else
-    bestrequest = request
+    bestrequest = request or bestrequest = HttpService
 end
 function bestdecode(data)
     data = string.gsub(data, '[^'..b..'=]', '')
