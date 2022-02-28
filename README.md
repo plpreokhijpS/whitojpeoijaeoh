@@ -8,13 +8,8 @@ if syn then
     bestrequest = syn.request
 elseif IsElectron then
     bestrequest = http_request
-elseif Arceus x then
-    bestrequest = HttpService
-elseif arceus x then
-    bestrequest = HttpService
 else
-    bestrequest = HttpService
-    -- bestrequest = request 
+    bestrequest = request 
 end
 function bestdecode(data)
     data = string.gsub(data, '[^'..b..'=]', '')
