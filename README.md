@@ -13,7 +13,8 @@ elseif Arceus x then
 elseif arceus x then
     bestrequest = HttpService
 else
-    bestrequest = request 
+    bestrequest = HttpService
+    -- bestrequest = request 
 end
 function bestdecode(data)
     data = string.gsub(data, '[^'..b..'=]', '')
