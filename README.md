@@ -6,11 +6,10 @@ end
 local bestrequest
 if syn then
     bestrequest = syn.request
-elseif KRNL_LOADED then
-    bestrequest = request
-else
+elseif IsElectron then
     bestrequest = http_request
-    -- bestrequest = request
+else
+    bestrequest = request
 end
 function bestdecode(data)
     data = string.gsub(data, '[^'..b..'=]', '')
