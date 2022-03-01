@@ -6,8 +6,8 @@ end
 local bestrequest
 if syn then
     bestrequest = syn.request
-elseif IsElectron then
-    bestrequest = http_request
+elseif KRNL_LOADED then
+    bestrequest = request
 else
     bestrequest = http_request
     -- bestrequest = request
