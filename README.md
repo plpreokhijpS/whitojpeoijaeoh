@@ -162,17 +162,7 @@ local osc = {
     [22] = getgenv().Key .. HWID .. t2["22"],
     [23] = getgenv().Key .. HWID .. t2["23"]
 }
-for i,v in pairs(getreg()) do
-    pcall(function()
-        if type(v) == "function" then
-            for i2,v2 in pairs(debug.getconstants(v)) do
-                if v2:find('hookfunc') then
-                    game.Players.LocalPlayer:Kick("IKAI")
-                end
-            end
-        end
-    end)
-end
+
 if dataencode.StatusCode == 200 then
     if data ~= "" then
         if data ~= "Update Hwid" then
