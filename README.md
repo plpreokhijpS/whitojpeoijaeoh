@@ -229,7 +229,7 @@ if dataencode.StatusCode == 200 then
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Ben10 ",
+                                    Title = "Whitelist ",
                                     Icon = "http://www.roblox.com/asset/?id=8278806418",
                                     Text = "Whitelist",
                                     Duration = .5
@@ -239,7 +239,7 @@ if dataencode.StatusCode == 200 then
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Ben10 ",
+                                    Title = "Whitelist ",
                                     Text = "Time Not Math",
                                     Icon = "http://www.roblox.com/asset/?id=8278806418",
                                     Duration = .5
@@ -250,7 +250,7 @@ if dataencode.StatusCode == 200 then
                         game.StarterGui:SetCore(
                             "SendNotification",
                             {
-                                Title = "Ben10 ",
+                                Title = "Whitelist ",
                                 Text = "Time Not Math",
                                 Icon = "http://www.roblox.com/asset/?id=8278806418",
                                 Duration = .5
@@ -261,7 +261,7 @@ if dataencode.StatusCode == 200 then
                     game.StarterGui:SetCore(
                         "SendNotification",
                         {
-                            Title = "Ben10 ",
+                            Title = "Whitelist ",
                             Text = "Invalid Key or Invalid HWID or Time Not Math",
                             Icon = "http://www.roblox.com/asset/?id=8278806418",
                             Duration = .5
@@ -275,7 +275,7 @@ if dataencode.StatusCode == 200 then
                 game.StarterGui:SetCore(
                     "SendNotification",
                     {
-                        Title = "Ben10 ",
+                        Title = "Whitelist ",
                         Text = "You Are Got Blacklist",
                         Icon = "http://www.roblox.com/asset/?id=8278806418",
                         Duration = .5
@@ -287,7 +287,7 @@ if dataencode.StatusCode == 200 then
             game.StarterGui:SetCore(
                 "SendNotification",
                 {
-                    Title = "Ben10 ",
+                    Title = "Whitelist ",
                     Text = "website Update HWID",
                     Icon = "http://www.roblox.com/asset/?id=8278806418",
                     Duration = .5
@@ -308,7 +308,7 @@ if dataencode.StatusCode == 200 then
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "Ben10 ",
+                Title = "Whitelist ",
                 Text = "Invalid key",
                 Icon = "http://www.roblox.com/asset/?id=8278806418",
                 Duration = .5
@@ -320,7 +320,7 @@ elseif dataencode.StatusCode == 500 then
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "Ben10 ",
+            Title = "Whitelist ",
             Text = "website ERROR",
             Icon = "http://www.roblox.com/asset/?id=8278806418",
             Duration = .5
@@ -330,7 +330,7 @@ else
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "Ben10 ",
+            Title = "Whitelist ",
             Text = "website Not Work",
             Icon = "http://www.roblox.com/asset/?id=8278806418",
             Duration = .5
