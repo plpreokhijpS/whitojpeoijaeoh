@@ -229,7 +229,7 @@ if dataencode.StatusCode == 200 then
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Whitelist ",
+                                    Title = "Ben10 ",
                                     Icon = "http://www.roblox.com/asset/?id=8278806418",
                                     Text = "Whitelist",
                                     Duration = .5
@@ -239,7 +239,7 @@ if dataencode.StatusCode == 200 then
                             game.StarterGui:SetCore(
                                 "SendNotification",
                                 {
-                                    Title = "Whitelist ",
+                                    Title = "Ben10 ",
                                     Text = "Time Not Math",
                                     Icon = "http://www.roblox.com/asset/?id=8278806418",
                                     Duration = .5
@@ -250,7 +250,7 @@ if dataencode.StatusCode == 200 then
                         game.StarterGui:SetCore(
                             "SendNotification",
                             {
-                                Title = "Whitelist ",
+                                Title = "Ben10 ",
                                 Text = "Time Not Math",
                                 Icon = "http://www.roblox.com/asset/?id=8278806418",
                                 Duration = .5
@@ -261,7 +261,7 @@ if dataencode.StatusCode == 200 then
                     game.StarterGui:SetCore(
                         "SendNotification",
                         {
-                            Title = "Whitelist ",
+                            Title = "Ben10 ",
                             Text = "Invalid Key or Invalid HWID or Time Not Math",
                             Icon = "http://www.roblox.com/asset/?id=8278806418",
                             Duration = .5
@@ -275,7 +275,7 @@ if dataencode.StatusCode == 200 then
                 game.StarterGui:SetCore(
                     "SendNotification",
                     {
-                        Title = "Whitelist ",
+                        Title = "Ben10 ",
                         Text = "You Are Got Blacklist",
                         Icon = "http://www.roblox.com/asset/?id=8278806418",
                         Duration = .5
@@ -287,13 +287,13 @@ if dataencode.StatusCode == 200 then
             game.StarterGui:SetCore(
                 "SendNotification",
                 {
-                    Title = "Whitelist ",
+                    Title = "Ben10 ",
                     Text = "website Update HWID",
                     Icon = "http://www.roblox.com/asset/?id=8278806418",
                     Duration = .5
                 }
             )
-            game.Players.LocalPlayer:Kick("Whitelist - Auto Rejoin")
+            game.Players.LocalPlayer:Kick("Ben10 - Auto Rejoin")
             wait()
             game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
             local hwidencode =
@@ -308,7 +308,7 @@ if dataencode.StatusCode == 200 then
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "Whitelist ",
+                Title = "Ben10 ",
                 Text = "Invalid key",
                 Icon = "http://www.roblox.com/asset/?id=8278806418",
                 Duration = .5
@@ -320,7 +320,7 @@ elseif dataencode.StatusCode == 500 then
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "Whitelist ",
+            Title = "Ben10 ",
             Text = "website ERROR",
             Icon = "http://www.roblox.com/asset/?id=8278806418",
             Duration = .5
@@ -330,7 +330,7 @@ else
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "Whitelist ",
+            Title = "Ben10 ",
             Text = "website Not Work",
             Icon = "http://www.roblox.com/asset/?id=8278806418",
             Duration = .5
